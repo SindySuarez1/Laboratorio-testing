@@ -17,19 +17,20 @@ test('subtract -5 - -10 to equal 5', () => {
 });
 
 // ! TAREA 1
+const { divide, multiply} = require('./calculator')
 
 test('divide 15 / 5 to equal 3', () => {
   expect(calculator.divide(15, 5)).toBe(3);
 });
 
 test('divide 191 / 5 to equal 38.2', () => {
-  expect(calculator.divide(191, 5)).toBe(38.2);
+  expect(divide(191, 5)).toBe(38.2);
 });
 
 test('multiply 5 * 4 to equal 20', () => {
-  expect(calculator.multiply(5, 4)).toBe(20);
+  expect(multiply(5, 4)).toBe(20);
 });
 
 test('multiply 35 * 14 to equal 490', () => {
-  expect(calculator.multiply(35, 14)).toBe(490);
+  expect(multiply(35, 14)).toBe(490);
 });

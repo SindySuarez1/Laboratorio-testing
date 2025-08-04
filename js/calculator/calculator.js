@@ -14,4 +14,4 @@ function multiply(a, b){
 }
 
 // When you want to use the divide or multiple function, remember to add it to the export here
-module.exports = {add, subtract, divide, multiply};
+module.exports = {add: add, subtract: subtract, divide, multiply};
